@@ -16,6 +16,7 @@ def factors(x):
             l.append(i)
     return l
 
+
 if __name__ == "__main__":
     n = factors(10)
     assert sorted(n) == [1, 2, 5, 10]
@@ -25,6 +26,7 @@ if __name__ == "__main__":
     assert sorted(n) == [1,3]
     assert sorted(factors(25)) == [1,5,25]
 
+
     n = factors(10)
     print("The factors of 10 are ")
     for i in n:
@@ -32,5 +34,8 @@ if __name__ == "__main__":
         if i != n[-1]:
             print(", ", end="")
     else: print()
+
+
+
 
     
